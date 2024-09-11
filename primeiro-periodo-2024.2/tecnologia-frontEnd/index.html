@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            font-size: 19px;
+        }
+
+        table {
+            border: 3px solid;
+            color: grey;
+        }
+
+        tr,
+        th {
+            border: 1px solid;
+            color: white;
+        }
+
+        #formu {
+            color: white;
+            
+        }
+
+    </style>
+    <title>Aula de Formulario</title>
 </head>
+
 <body>
-    
+    <div>
+        <table>
+            <tr>
+                <th>coluna 1</th>
+                <th>coluna 2</th>
+                <th>coluna 3</th>
+            </tr>
+            <tr>
+                <td>conteudo1</td>
+                <td>conteudo2</td>
+                <td>conteudo3</td>
+            </tr>
+        </table>
+    </div>
+    <div id="formu">
+        <h1>Formulario:</h1>
+        <form action="" method="get">
+            <div>
+                <label for="email"></label>
+                <input type="text" name="email" placeholder="Digite seu email">
+            </div>
+            <div>
+                <label for="senha"></label>
+                <input type="password" name="senha" placeholder="Digite sua senha">
+            </div>
+            <input type="submit">
+        </form>
+    </div>
 </body>
+
 </html>
