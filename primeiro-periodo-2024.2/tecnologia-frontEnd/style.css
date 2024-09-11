@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    font-size: 19px;
+}
+
+table {
+    border: 3px solid;
+    color: grey;
+}
+
+tr,
+th {
+    border: 1px solid;
+    color: white;
+}
+
+#formu {
+    color: white;
+    
+}
